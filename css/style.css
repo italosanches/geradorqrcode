@@ -1,0 +1,57 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: content-box;
+}
+body {
+  background: green;
+}
+
+.container-main {
+  display: flex;
+  justify-content: center;
+}
+.container-qrcode {
+  background-color: white;
+  margin-top: 4rem;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+  border-radius: 10px;
+  padding: 30px;
+}
+.description {
+  color: gray;
+  font-weight: 100;
+  font-size: 12px;
+}
+
+#input-qr {
+  padding: 14px;
+  border-color: green;
+  border-radius: 5px;
+}
+
+#button-qr {
+  background-color: green;
+  padding: 10px;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+}
+
+#button-qr:active {
+  transform: scale(0.96);
+}
+#input-qr:focus {
+  box-shadow: rgba(3, 245, 15, 0.25) 0px 54px 55px,
+    rgba(3, 245, 15, 0.25) 0px -12px 30px, rgba(3, 245, 15, 0.25) 0px 4px 6px,
+    rgba(3, 245, 15, 0.25) 0px 12px 13px, rgba(3, 245, 15, 0.25) 0px -3px 5px;
+}
+
+.text_error {
+  display: none;
+}
