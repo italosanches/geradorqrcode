@@ -1,74 +1,69 @@
 * {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: content-box;
+	margin: 0px;
+	padding: 0px;
+	box-sizing: content-box;
 }
 body {
-  background: green;
-  display: flex;
-  min-height: 100vh;
-  align-items: center;
-  justify-content: center;
+	background: green;
+	display: flex;
+	min-height: 100vh;
+	align-items: center;
+	justify-content: center;
 }
-
 
 .container-qrcode {
-  background-color: white;
+	background-color: white;
 
-  width: 360px;
-  /* height: 300px; */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  gap: 10px;
-  border-radius: 10px;
-  padding: 30px;
+	width: 360px;
+	/* height: 300px; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	gap: 1rem;
+	border-radius: 1rem;
+	padding: 2rem;
 }
 .description {
-  color: gray;
-  font-weight: 100;
-  font-size: 1rem;
+	color: gray;
+	font-weight: 100;
+	font-size: 1rem;
 }
 
 #input-qr {
-  padding: 14px;
-  border-color: green;
-  border-radius: 5px;
+	padding: 1.2rem;
+	border-color: green;
+	border-radius: 0.5rem;
 }
 
 #button-qr {
-  background-color: green;
-  padding: 10px;
-  color: white;
-  font-weight: bold;
-  border: none;
-  border-radius: 10px;
-  font-weight: bold;
-  font-size: 1.2rem;
+	background-color: green;
+	padding: 1rem;
+	color: white;
+	font-weight: bold;
+	border: none;
+	border-radius: 0.8rem;
+	font-weight: bold;
+	font-size: 1.2rem;
 }
-.qr_code_img{
-  border: 1px solid;
-  padding: 10px;
-  border-radius: 1rem;
-  opacity: 0;
-  visibility: hidden;
+.qr_code_img {
+	border: 1px solid;
+	padding: 1rem;
+	border-radius: 1rem;
 }
-
-.qr_code_img.active {
-  opacity: 1;
-  visibility: visible;
+.hidden {
+	display: none;
 }
 
 #button-qr:active {
-  transform: scale(0.96);
+	transform: scale(0.96);
 }
 #input-qr:focus {
-  box-shadow: rgba(3, 245, 15, 0.25) 0px 54px 55px,
-    rgba(3, 245, 15, 0.25) 0px -12px 30px, rgba(3, 245, 15, 0.25) 0px 4px 6px,
-    rgba(3, 245, 15, 0.25) 0px 12px 13px, rgba(3, 245, 15, 0.25) 0px -3px 5px;
+	box-shadow: rgba(3, 245, 15, 0.25) 0px 54px 55px,
+		rgba(3, 245, 15, 0.25) 0px -12px 30px, rgba(3, 245, 15, 0.25) 0px 4px 6px,
+		rgba(3, 245, 15, 0.25) 0px 12px 13px, rgba(3, 245, 15, 0.25) 0px -3px 5px;
 }
 
 .text_error {
-  display: none;
+	display: none;
 }
